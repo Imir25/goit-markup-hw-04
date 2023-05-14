@@ -62,6 +62,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-contact-container {
@@ -144,7 +145,7 @@ img {
 /* Hero section */
 
 .hero-section {
-  margin: 0;
+  margin: 0 auto;
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -155,6 +156,7 @@ img {
   max-width: 1440px;
   background-repeat: no-repeat; 
   background-position: center;
+  
 }
 
 .main-title {
@@ -326,10 +328,6 @@ img {
 
 /* Team section */
 
-.team-container {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 .team-section {
   background-color: #F4F4FD
@@ -359,12 +357,12 @@ img {
 .social-list-link:focus {
   background-color: #404bbf;
 }
-
-.social-list-icon:hover, .social-list-icon:focus, 
-.social-list-link:hover, .social-list-link:focus {
+   
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #31d0aa;
 }
-                  
+
 .our-team {
   margin-bottom: 72px;
   font-weight: 700;
@@ -407,6 +405,11 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.or-team-card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .our-team-text {
   margin-bottom: 8px;
   font-size: 16px;
@@ -415,7 +418,6 @@ img {
 
   color: #434455;
 }
-
 
   /* Customers section */
 
@@ -474,7 +476,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   gap: 120px;
 }
 
